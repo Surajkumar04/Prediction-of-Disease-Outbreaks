@@ -147,7 +147,7 @@ if selected == 'Parkinsons Prediction':
         if parkinsons_prediction[0] == 1:
            parkinsons_diagnosis = 'The person is diagnosed with Parkinsons disease'
         else:
-           parkinsons_diagnosis = 'The person is diagnosed with Parkinsons disease'
+           parkinsons_diagnosis = 'The person is not diagnosed with Parkinsons disease'
     st.success(parkinsons_diagnosis)
 
 
